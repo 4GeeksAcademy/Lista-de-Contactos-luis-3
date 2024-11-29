@@ -1,3 +1,31 @@
 /* 
     General Styles
 */
+.img-fluid {
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: 200px;
+    object-fit: cover;
+  }
+
+.container {
+    justify-content: center;
+}
+
+.card {
+  width: 100%;
+  padding: 36px;
+}
+
+.container-agenda {
+  background-color: rgb(244, 240, 240);
+  width: 400px;
+  height: 400px;
+  padding: 36px;
+  margin: auto;
+  margin-top: 100px;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: black;
+  border: 2px,solid;
+}
+
